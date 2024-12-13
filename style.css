@@ -216,28 +216,18 @@ section.first>div :nth-child(2) {
     padding-right: 6%;
 }
 
-
 .faq h2 {
-    max-width: 90vw;
-    width: 600px;
-    margin: auto;
     text-align: center;
     font-size: 48px;
 }
 
 .faq {
-    max-width: 90vw;
-    width: 826px;
-    margin: auto;
-    background-color: black;
+    background: black;
     color: white;
-    /* padding: 34px; */
+    padding: 34px;
 }
 
 .faqbox:hover {
-    max-width: 90vw;
-    width: 600px;
-    margin: auto;
     background-color: #414141;
     color: white;
 }
@@ -247,7 +237,6 @@ section.first>div :nth-child(2) {
 }
 
 .faqbox {
-    border-radius: 30px;
     transition: all 1s ease-out;
     font-size: 24px;
     display: flex;
@@ -255,15 +244,17 @@ section.first>div :nth-child(2) {
     background-color: #2d2d2d;
     padding: 24px;
     max-width: 60vw;
+    border-radius: 25px;
     margin: 34px auto;
     cursor: pointer;
 }
+
 footer {
     color: white;
     margin: auto;
     width: auto;
     height: 300px;
-    max-width: 100%;
+    max-width: 85%;
     max-height: 100%;
     /* margin: 25px; */
     padding: 35px;
@@ -298,9 +289,45 @@ a{
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 330px){
+           .navbut2{
+            width: 26%;
+           }
+           nav img{
+            padding-top: 8%;
+            width: 65%;
+           }
+}
 
+@media screen and (max-width: 900px){
+    .hero> :nth-child(1) {
+        font-size: 22px;
+    }
+    
+    .hero> :nth-child(2) {
+        font-size: 10px;
+    }
+    
+    .hero> :nth-child(3) {
+        font-size: 10px;
+    }
 
-@media screen and (max-width: 1300px) {
+}
+@media screen and (max-width: 1300px){
+    .hero> :nth-child(1) {
+        font-size: 42px;
+    }
+    
+    .hero> :nth-child(2) {
+        font-size: 28px;
+    }
+    
+    .hero> :nth-child(3) {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
 
     nav{
         max-width: 90vw;
@@ -312,15 +339,20 @@ a{
         flex-wrap: wrap;
     }
     
+    .rohead{
+        padding-top:7%;
+        display: flex;
+        justify-content: center;
+    }
 
     .hero> :nth-child(1) {
         font-size: 32px;
     }
-
+    
     .hero> :nth-child(2) {
         font-size: 18px;
     }
-
+    
     .hero> :nth-child(3) {
         font-size: 18px;
     }
@@ -335,7 +367,7 @@ a{
 
     .faq h2 {
         text-align: center;
-        font-size: 32px;
+        /* font-size: 32px; */
     }
 
 
