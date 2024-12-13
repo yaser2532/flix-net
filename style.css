@@ -172,21 +172,21 @@ button{
     position: relative;
 }
 .secImg img {
-    max-width: 120%;
-    min-width: 20%;
+    /* max-width: 120%;
+    min-width: 20%; */
     position: relative;
     z-index: 10;
     width: 100%;
-    left: 13%;
-    /* text-align: center; */
+    /* left: 13%;  */
+    text-align: center;
 }
 .secImg video {
     position: absolute;
-    top: 20%;
+    top: 17%;
     width: 550px;
-    max-width: 74%;
-    /* min-width: 100%; */
-    left: 25%;
+    max-width: 75%;
+    min-width: 83%;
+    left: 10%;
 }
 section.first>div {
     display: flex;
@@ -195,7 +195,7 @@ section.first>div {
     max-width: 90vw;
     width: 600px;
     margin: auto;
-    padding: 34px;
+    /* padding: 34px; */
 }
 section.first>div :nth-child(1) {
     font-size: 50px;
@@ -301,9 +301,11 @@ a{
     }
 
     .first {
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
     }
-
+    
 
     .hero> :nth-child(1) {
         font-size: 32px;
