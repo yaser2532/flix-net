@@ -207,7 +207,13 @@ section.first>div :nth-child(2) {
 }
 .second{
     display: flex;
-    /* flex-direction: row-reverse; */
+    flex-direction: row-reverse;
+}
+.navbut1{
+    padding-left: 6%;
+}
+.navbut2{
+    padding-right: 6%;
 }
 
 
