@@ -207,6 +207,7 @@ section.first>div :nth-child(2) {
 }
 .second{
     display: flex;
+    gap: 75px;
     flex-direction: row-reverse;
 }
 .navbut1{
