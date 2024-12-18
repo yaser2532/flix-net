@@ -126,7 +126,7 @@ button{
     /* align-items: ; */
     font-weight: 300;
 }
-.email{
+#email{
     display: flex;
     justify-content: center;
     margin-top: 5px;
@@ -149,7 +149,7 @@ button{
 .main input {
     padding: 7px 101px 8px 14px;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 14px;
     /* border-color: #414141 ;!important */
     background-color: rgba(23, 23, 23, 0.7);
@@ -180,6 +180,10 @@ button{
     width: 100%;
     /* left: 13%;  */
     text-align: center;
+}
+#londi{
+    display: flex;
+    justify-content: left;
 }
 .secImg video {
     position: absolute;
@@ -365,7 +369,7 @@ a{
             padding-top: 8%;
             width: 60%;
         }
-        .bod{
+        #bod{
             font-size: 14px;
         }
         #rohead{
@@ -379,5 +383,9 @@ a{
         }
         #faqbox{
             font-size: 16px;
+        }
+        #email{
+            font-size: 13px;
+            width: 50%;
         }
     }
